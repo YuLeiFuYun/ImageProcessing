@@ -525,4 +525,3 @@ extension YUWrapper where Base == UIImage {
 let image: UIImage = .panda
 imageView.image = UIImage.yu.downsample(data: image.pngData()!, to: imageView.bounds.size)
 ```
->>>>>>> a90ef4b (Initial commit)
